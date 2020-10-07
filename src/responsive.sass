@@ -15,6 +15,8 @@
             .icons
                 .fa-bars
                     display: inline-block
+                .fa-circle
+                    margin: 0 6% 7% 0%
         .menu
             position: absolute
             z-index: 100
@@ -29,11 +31,14 @@
                 position: absolute
                 z-index: -100
                 margin-left: -150%
+                margin-top: 20%
                 width: 200% 
             .text
                 width: 100%
-                border: 1px solid black
                 height: 100%
+                display: flex
+                flex-direction: column
+                align-items: center
                 h1
                     text-align: center
                     font-size: 200%
@@ -42,13 +47,21 @@
                     letter-spacing: -0.01em
                     line-height: 1.2
                 p
-                    font-size: 150%
+                    font-size: 120%
                     text-align: center
+                    font-weight: 300
                 button
                     font-size: 70%
-            .dots-container
-                position: absolute                
-                    
+                    margin-top: 0%
+                    width: 50%
+        .dots-container
+            position: absolute
+            margin-top: -50%
+            width: 100vw
+            display: flex
+            justify-content: center
+            .dot-alv
+                margin: 0 2%
     .services
         flex-direction: column
         .section
@@ -56,7 +69,6 @@
     .people
         flex-direction: column
         width: 100%
-        border: 1px solid black
         .people-container
             width: 100%
             margin-bottom: 5%
@@ -83,15 +95,14 @@
                 width: 100%
     .slider-container
         height: 100%
-        border: 1px solid black
         .text
             width: 100%
         .arrows
             display: flex
             align-items: center
             button
-                border: 1px solid blue
                 img
                     height: 100%
                     display: block
-    
+    .big-sale
+        margin: 10% 0
