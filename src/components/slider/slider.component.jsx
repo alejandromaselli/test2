@@ -40,12 +40,13 @@ class Carousel extends Component {
   render() {
     return (
       <div className="slider-container-navbar">
-        <CarouselProvider
+        <CarouselProvider 
+          className="carrousel"
           naturalSlideWidth={this.state.width} 
-          naturalSlideHeight={this.state.height}
+          naturalSlideHeight={this.state.height*(1.2)}
           totalSlides={3}
         >
-            <Slider spinner={true}>
+            <Slider spinner={true} className="slider-main">
                   <Slide index={0}><Slide1/></Slide>
                   <Slide index={1}><Slide1/></Slide>
                   <Slide index={2}><Slide1/></Slide>
