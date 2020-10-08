@@ -49,6 +49,7 @@ const Menu = () => {
                     <li className="secondary-list-item">Menu Item</li>
                     <li className="secondary-list-item">Menu Item</li>
                 </ul>
+                <div className="grey"></div>
             </ul>  
         </nav>
     );
